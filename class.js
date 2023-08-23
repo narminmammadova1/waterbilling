@@ -5,6 +5,7 @@ const beginningMeter = parseInt(prompt("Please enter your beginning meter"));
 const endingMeter = parseInt(prompt("Please enter your ending meter"));
 
 class WaterBilling {
+
   constructor(customerCode, beginningMeter, endingMeter) {
     this.customerCode = customerCode;
     this.beginningMeter = beginningMeter;
